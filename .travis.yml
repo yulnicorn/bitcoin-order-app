@@ -19,7 +19,7 @@ before_script:
   
 script:
   - ng build --prod --base-href 
-https://yulnicorn.github.com/bitcoin-order-app/
+https://yulnicorn.github.io/bitcoin-order-app/
   
 deploy:
   provider: pages
@@ -29,4 +29,3 @@ deploy:
   edge: true
   on:
     branch: development
-
